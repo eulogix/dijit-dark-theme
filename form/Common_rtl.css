@@ -1,0 +1,32 @@
+/* claro/form/Common_rtl.css */
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .dijitTextBoxRtlError .dijitValidationContainer {
+  border-left-width: 0;
+  border-right-width: 1px;
+}

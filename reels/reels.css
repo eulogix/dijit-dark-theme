@@ -1,0 +1,92 @@
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+html,
+body {
+  background-color: #21242d;
+}
+.reels .formContainer .sectionTitle {
+  color: #dcdcdc;
+  border-bottom: 1px solid #0075a7;
+  background: linear-gradient(transparent, rgba(40, 190, 255, 0.1));
+}
+/* control label when stacked */
+.reels .controlLabelStacked {
+  color: #fff;
+}
+.reels .requiredField {
+  border: 1px solid #3B72A6;
+}
+.reels .widgetTitle {
+  height: 30px;
+  line-height: 30px;
+  min-height: 30px;
+  border: 1px solid #114885;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  padding-left: 10px;
+  vertical-align: middle;
+  background: linear-gradient(#0098da, #003f5b);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+  font-weight: bold;
+  color: #dddddd;
+}
+.reels .widgetBody {
+  border: 1px solid #323232;
+  border-top: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.11);
+}
+.reels .widgetTitle .dijitHover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 3px;
+}
+.reels .widgetTitle .closeButtonNode {
+  float: right;
+  cursor: pointer;
+  display: none;
+  width: 30px;
+  height: 100%;
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.25);
+  border-left: 1px solid #114885;
+  text-align: center;
+  background: linear-gradient(#d1000a, #6d0006);
+  margin-left: 10px;
+}
+.reels .widgetTitle .closeButtonNode:hover {
+  background: linear-gradient(#6d0006, #d1000a);
+}
+/* the outer slots node */
+.reels .filterNode {
+  border-bottom-color: #1f222a;
+}
+.claro .formContainer {
+  background-color: #495264;
+}

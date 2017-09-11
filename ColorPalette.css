@@ -1,0 +1,68 @@
+/* ColorPalette
+ * 
+ * Styling of the ColorPalette consists of the following:
+ * 
+ * 1. the whole color palette
+ *		.dijitColorPalette - for outline, border, and background color of the whole color palette
+ *		Note: outline does not work for IE
+ *
+ * 2. the color swatch 
+ *		.dijitColorPalette .dijitPaletteImg
+ *		transparent (but clickable) <img> node inside of each <td>, overlaying the color swatch.
+ *		displays border around a color swatch
+ *
+ * 3. hovered swatch
+ * 		.dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg
+ *		the hovered state of the color swatch - adds border
+ * 	
+ * 4. active and selected swatch
+ * 		.dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg
+ *		.dijitColorPalette .dijitPaletteCellSelected .dijitPaletteImg
+ *		adds border for active or selected state
+ */
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .dijitColorPalette {
+  border: 1px solid #272a32;
+  background: #21242d;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.claro .dijitColorPalette .dijitPaletteImg {
+  /* transparent (but clickable) <img> node inside of each <td>, overlaying the color swatch.
+	 * displays border around a color swatch
+	 * overrides border color in dijit.css */
+  border: 1px solid #262626;
+}
+.claro .dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg {
+  border: 1px solid #000000;
+}
+.claro .dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg,
+.claro .dijitColorPalette .dijitPaletteTable .dijitPaletteCellSelected .dijitPaletteImg {
+  border: 2px solid #000000;
+}

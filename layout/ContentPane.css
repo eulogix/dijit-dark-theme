@@ -1,0 +1,66 @@
+/* ContentPane 
+ *	
+ * .dijitContentPane
+ * 	set padding for basic content pane
+ * 	
+ * Nested layouts:
+ * 
+ * .dijitTabContainerTop-dijitContentPane,
+ * .dijitTabContainerLeft-dijitContentPane,
+ * .dijitTabContainerBottom-dijitContentPane,
+ * .dijitTabContainerRight-dijitContentPane
+ * 	set background-color and padding of ContentPanes nested within TabContainer (can do top, left, bottom, or right) or Accordion Container
+ *
+ * .dijitAccordionContainer-dijitContentPane
+ * 	set background-color and padding of ContentPane nested within Accordion
+ *
+ * .dijitSplitContainer-dijitContentPane, 
+ *	set background-color and padding of ContentPane nested within a SplitContainer 
+ *
+ * .dijitBorderContainer-dijitContentPane
+ *	set background-color and padding of ContentPane nested within a BorderContainer 
+ */
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .dijitContentPane {
+  padding: 8px;
+}
+/* nested layouts */
+.claro .dijitTabContainerTop-dijitContentPane,
+.claro .dijitTabContainerLeft-dijitContentPane,
+.claro .dijitTabContainerBottom-dijitContentPane,
+.claro .dijitTabContainerRight-dijitContentPane,
+.claro .dijitAccordionContainer-dijitContentPane {
+  background-color: transparent;
+  padding: 8px;
+}
+.claro .dijitSplitContainer-dijitContentPane,
+.claro .dijitBorderContainer-dijitContentPane {
+  background-color: transparent;
+  padding: 8px;
+}

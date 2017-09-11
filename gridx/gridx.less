@@ -1,0 +1,120 @@
+@import "../variables";
+
+.claro .gridx {
+  color: @text-color;
+  background-color: @container-background-color;
+  border: none;
+}
+
+.claro .gridxBodyEmpty {
+  background-color: @container-background-color;
+}
+
+/* toolbars */
+
+.claro .gridxBar {
+  background: linear-gradient(@background-color-l5, @background-color-l3);
+  border-top-color: @box-border-light;
+}
+
+/* header */
+
+.claro .gridxHeaderRow {
+  .box-l3;
+  .borders-box-l3;
+}
+
+.claro .gridxRowHeaderHeader {
+  background: @background-color-l3;
+  border-right: 1px solid @background-color-l2;
+}
+
+.claro .gridxHeaderRow .gridxCell {
+  color: @text-color;
+  text-shadow: none;
+  .borders-box-l3;
+}
+
+.claro .gridxHeaderRow .gridxHeaderRowInner .gridxCell:hover {
+  background: @background-color-l5;
+}
+
+/* row */
+
+.claro .gridxMain {
+  border-left-color: @box-border-light;
+  border-right-color: @box-border-dark;
+}
+
+.claro .gridxRow {
+  .box-l5;
+}
+
+.claro .gridxRowOdd>.gridxRowTable {
+  background-color: @background-color-l4;
+}
+
+.claro .gridxRowHeaderBody {
+  border-color: @box-border-dark;
+}
+
+.claro .gridxRowHeaderRow {
+  background: @background-color-l4;
+}
+
+.claro .gridxRowHeaderBody .gridxRowOver {
+  background: @background-color-l5;
+}
+
+.claro .gridxRow .gridxCell {
+  color: @text-color;
+  border-color: @background-color-l5 @background-color-l4 @background-color-l4 @background-color-l5;
+}
+
+.claro .gridxRowHeaderCell {
+  border-top-color: @background-color-l5;
+}
+
+.claro .gridxRow:last-child .gridxCell {
+  border-bottom-color: @background-color-l4;
+}
+
+.claro .gridx .gridxBodyRowHoverEffect .gridxRowOver .gridxRowTable {
+  background-color: mix(@primary-color, @background-color-l4, 30%);
+}
+
+/* header and footer */
+
+.claro .gridxHeader, .claro .gridxFooter {
+  background: @background-color-l3;
+}
+
+
+/* modules : scroller */
+
+.claro .gridxHScroller {
+  border-color: @box-border-dark;
+}
+
+.claro .gridxRowHeaderRow table, .gridxRow .gridxRowTable {
+  border-color: @box-border-dark;
+}
+
+
+/* modules: totalsbar */
+
+.claro .totalsBarTable {
+  background: linear-gradient(@background-color-l5, @background-color-l3);
+}
+
+
+.claro .totalsBarCell {
+  border-right-color: @box-border-dark;
+  border-left-color: @box-border-light;
+}
+
+/* modules: paginator */
+
+.claro .gridxPagerStepperBtn, .claro .gridxPagerSizeSwitchBtn {
+  color: @minor-selected-color;
+}

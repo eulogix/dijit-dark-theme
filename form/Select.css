@@ -1,0 +1,119 @@
+/* Select
+ * 
+ * Styling Select mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitSelect - for border, background-color
+ * 		.dijitButtonContents - for border
+ *
+ * 2. Arrow
+ * 		.dijitArrowButton - for border, padding and background-color|image
+ * 		.dijitArrowButtonInner - for border, background-color|image, display and width|height
+ * 
+ * 3. Menu
+ * 		.dijitSelectMenu .* - for border, padding
+ * 
+ * 4. Various states
+ * 		.dijitSelectHover|.dijitSelectFocused|.dijitSelectDisabled .* - for border, padding and background-color|image 
+ */
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+/* normal status */
+.claro .dijitSelect .dijitArrowButtonContainer {
+  border: 1px solid #21242d;
+}
+.claro .dijitSelect .dijitArrowButton {
+  padding: 0;
+  background-color: #484e5d;
+  background-image: url("../images/standardGradient.png");
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  _background-image: none;
+}
+.claro .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+  height: 16px;
+}
+/* hover status */
+.claro .dijitSelectHover {
+  background-color: #3783a4;
+  background-image: -moz-linear-gradient(rgba(127, 127, 127, 0.2) 0%, rgba(127, 127, 127, 0) 2px);
+  background-image: -webkit-linear-gradient(rgba(127, 127, 127, 0.2) 0%, rgba(127, 127, 127, 0) 2px);
+  background-image: -o-linear-gradient(rgba(127, 127, 127, 0.2) 0%, rgba(127, 127, 127, 0) 2px);
+  background-image: linear-gradient(rgba(127, 127, 127, 0.2) 0%, rgba(127, 127, 127, 0) 2px);
+  background-repeat: repeat-x;
+}
+.claro .dijitSelectHover .dijitArrowButton {
+  background-color: #0098da;
+}
+.claro .dijitSelectHover .dijitArrowButton .dijitArrowButtonInner {
+  background-position: -70px 53%;
+}
+/* focused status */
+.claro .dijitSelectFocused .dijitArrowButton {
+  background-color: #7dbefa;
+  background-image: url("../images/activeGradient.png");
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  _background-image: none;
+}
+.claro .dijitSelectFocused .dijitArrowButton {
+  border: none;
+  padding: 1px;
+}
+.claro .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner {
+  background-position: -70px 53%;
+}
+/* disable status */
+.claro .dijitSelectDisabled {
+  border-color: #262626;
+  background-color: #272a32;
+  background-image: none;
+  color: #b3b3b3;
+}
+.claro .dijitSelectDisabled .dijitArrowButton .dijitArrowButtonInner {
+  background-position: 0 53%;
+}
+/* Dropdown menu style for select */
+.claro .dijitSelectMenu td.dijitMenuItemIconCell,
+.claro .dijitSelectMenu td.dijitMenuArrowCell {
+  /* so that arrow and icon cells from MenuItem are not displayed */
+  display: none;
+}
+.claro .dijitSelectMenu td.dijitMenuItemLabel {
+  /* line up menu text with text in select box (in LTR and RTL modes) */
+  padding: 2px;
+}
+.claro .dijitSelectMenu .dijitMenuSeparatorTop {
+  border-bottom: 1px solid #07080a;
+}

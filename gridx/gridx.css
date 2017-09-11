@@ -1,0 +1,122 @@
+.box-l1 {
+  background: #262d38;
+}
+.box-l2 {
+  background: #2a2a39;
+}
+.box-l3 {
+  background: #353741;
+}
+.box-l4 {
+  background: #495264;
+}
+.box-l5 {
+  background: #5d6675;
+}
+.borders-box {
+  border-top-color: #6e798b;
+  border-left-color: #6e798b;
+  border-bottom-color: #1f222a;
+  border-right-color: #1f222a;
+}
+.borders-box-l3 {
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .gridx {
+  color: #ffffff;
+  background-color: #21242d;
+  border: none;
+}
+.claro .gridxBodyEmpty {
+  background-color: #21242d;
+}
+/* toolbars */
+.claro .gridxBar {
+  background: linear-gradient(#5d6675, #353741);
+  border-top-color: #6e798b;
+}
+/* header */
+.claro .gridxHeaderRow {
+  background: #353741;
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .gridxRowHeaderHeader {
+  background: #353741;
+  border-right: 1px solid #2a2a39;
+}
+.claro .gridxHeaderRow .gridxCell {
+  color: #ffffff;
+  text-shadow: none;
+  border-top-color: #495264;
+  border-left-color: #495264;
+  border-bottom-color: #2a2a39;
+  border-right-color: #2a2a39;
+}
+.claro .gridxHeaderRow .gridxHeaderRowInner .gridxCell:hover {
+  background: #5d6675;
+}
+/* row */
+.claro .gridxMain {
+  border-left-color: #6e798b;
+  border-right-color: #1f222a;
+}
+.claro .gridxRow {
+  background: #5d6675;
+}
+.claro .gridxRowOdd > .gridxRowTable {
+  background-color: #495264;
+}
+.claro .gridxRowHeaderBody {
+  border-color: #1f222a;
+}
+.claro .gridxRowHeaderRow {
+  background: #495264;
+}
+.claro .gridxRowHeaderBody .gridxRowOver {
+  background: #5d6675;
+}
+.claro .gridxRow .gridxCell {
+  color: #ffffff;
+  border-color: #5d6675 #495264 #495264 #5d6675;
+}
+.claro .gridxRowHeaderCell {
+  border-top-color: #5d6675;
+}
+.claro .gridxRow:last-child .gridxCell {
+  border-bottom-color: #495264;
+}
+.claro .gridx .gridxBodyRowHoverEffect .gridxRowOver .gridxRowTable {
+  background-color: #3f7293;
+}
+/* header and footer */
+.claro .gridxHeader,
+.claro .gridxFooter {
+  background: #353741;
+}
+/* modules : scroller */
+.claro .gridxHScroller {
+  border-color: #1f222a;
+}
+.claro .gridxRowHeaderRow table,
+.gridxRow .gridxRowTable {
+  border-color: #1f222a;
+}
+/* modules: totalsbar */
+.claro .totalsBarTable {
+  background: linear-gradient(#5d6675, #353741);
+}
+.claro .totalsBarCell {
+  border-right-color: #1f222a;
+  border-left-color: #6e798b;
+}
+/* modules: paginator */
+.claro .gridxPagerStepperBtn,
+.claro .gridxPagerSizeSwitchBtn {
+  color: #0098da;
+}
